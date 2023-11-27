@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS</title>
+
+    <!--ICONSCOUT CDN-->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap"   
+    rel="stylesheet">
+
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tearm.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>StudyHub</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ========================== END OF NAV ==========================-->
+
+    <div class="container">
+        <h1>Privacy Policy</h1>
+
+        <p>Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.</p>
+
+        <h2>Information We Collect</h2>
+        <p>We may collect personal information such as your name, email address, and phone number when you fill out a form on our website.</p>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the collected information to provide and improve our services. Your information may also be used to contact you with newsletters or promotional material.</p>
+
+        <h2>Information Sharing</h2>
+        <p>We do not sell, trade, or otherwise transfer your personal information to third parties. This does not include trusted third parties who assist us in operating our website or conducting our business.</p>
+
+        <h2>Security</h2>
+        <p>We implement a variety of security measures to maintain the safety of your personal information.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We reserve the right to update or change our Privacy Policy at any time. Any changes will be effective immediately upon posting.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions regarding this Privacy Policy, you may contact us at privacy@example.com.</p>
+
+        <!-- Buttons for user interaction -->
+        <div class="button-container">
+            <button onclick="acceptPrivacy()">Accept</button>
+            <button onclick="declinePrivacy()">Decline</button>
+        </div>
+
+    </div>
+
+    <script>
+        function acceptPrivacy() {
+            alert('Thank you for accepting our Privacy Policy.');
+        }
+
+        function declinePrivacy() {
+            alert('If you decline, certain features of the website may be unavailable.');
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+ <footer class="footer">
+    <div class="container footer_container">
+        <div class="footer_1">
+            <a href="index.html" class="footer_logo"><h4>StudyHub</h4></a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ducimus deleniti quam odit, a commodi corporis illo exercitationem ab facere qui consequuntur ratione eius possimus quae sint assumenda adipisci vitae!
+            </p>
+        </div>
+        <div class="footer_2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer_3">
+            <h4>Perimacy</h4>
+            <ul class="permalinks">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+91 7894561235</p>
+                <p>StudyHub@gmail.com</p>
+            </div>
+            <ul class="footer_socials">
+                <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+                <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                <li><a href="#"><i class="uil uil-link-alt"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer_copyright">
+        <small>Copyright &copy; StudyHub</small>
+    </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+                     
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+          // when window width is >= 600px
+      breakpoints: {
+        600: {
+            slidesPerView: 2
+        }
+    }
+    });
+
+
+    </script>
+</body>
+</html>
